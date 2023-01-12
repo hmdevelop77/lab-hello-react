@@ -65,3 +65,10 @@
   border: none;
   padding: 20px;
 }
+.container{
+  display: flex;
+}
+.box{
+  margin: 10px;
+  padding: 20px;
+}

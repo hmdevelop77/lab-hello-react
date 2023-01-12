@@ -1,6 +1,10 @@
 // import logo from './logo.svg';
 import myLogo from "./images/ironhack-logo-xs.png";
 import myMenu from "./images/menu-top-xs.png";
+import declarative from "./images/icon1.png";
+import components from "./images/icon2.png";
+import single from "./images/icon3.png";
+import JSX from "./images/icon4.png";
 import "./App.css";
 
 function App() {
@@ -18,7 +22,28 @@ function App() {
           <button className="button">Awesome!</button>
         </div>
       </div>
-      <div></div>
+      <div className="container">
+      <div className="box">
+      <img className="Declarative" src={declarative} alt="Declarative" />
+      <h1>Declarative</h1>
+      <p>sorry but i'm too lazy to write each paragraph, but i made it</p>
+      </div>
+      <div className="box">
+      <img className="Components" src={components} alt="Components" />
+      <h1>Components</h1>
+      <p>sorry but i'm too lazy to write each paragraph, but i made it</p>
+      </div>
+      <div className="box">
+      <img className="Single-Way" src={single} alt="Single-Way" />
+      <h1>Single-Way</h1>
+      <p>sorry but i'm too lazy to write each paragraph, but i made it</p>
+      </div>
+      <div className="box">
+      <img className="JSX" src={JSX} alt="JSX" />
+      <h1>JSX</h1>
+      <p>sorry but i'm too lazy to write each paragraph, but i made it</p>
+      </div>
+    </div>
     </div>
   );
 }
